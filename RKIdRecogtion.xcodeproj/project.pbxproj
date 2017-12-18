@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F16F3EE41FE75A50004299C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F16F3EE31FE75A50004299C8 /* main.m */; };
+		F16F3EE71FE75A50004299C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F16F3EE61FE75A50004299C8 /* AppDelegate.m */; };
+		F16F3EEF1FE75A50004299C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16F3EEE1FE75A50004299C8 /* Assets.xcassets */; };
+		F16F3F171FE75C02004299C8 /* zocr0.lib in Resources */ = {isa = PBXBuildFile; fileRef = F16F3F0E1FE75C02004299C8 /* zocr0.lib */; };
+		F16F3F181FE75C02004299C8 /* libexidcardios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F16F3F101FE75C02004299C8 /* libexidcardios.a */; };
+		F16F3F191FE75C02004299C8 /* RKCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = F16F3F121FE75C02004299C8 /* RKCaptureView.m */; };
+		F16F3F1A1FE75C02004299C8 /* RKIDInfoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F16F3F141FE75C02004299C8 /* RKIDInfoTool.m */; };
+		F16F3F1B1FE75C02004299C8 /* RKIDRecogntionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16F3F161FE75C02004299C8 /* RKIDRecogntionController.m */; };
+		F16F3F1F1FE75EF3004299C8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F16F3F1E1FE75EF3004299C8 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F16F3EDF1FE75A50004299C8 /* RKIdRecogtion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKIdRecogtion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16F3EE31FE75A50004299C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F16F3EE51FE75A50004299C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F16F3EE61FE75A50004299C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F16F3EEE1FE75A50004299C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F16F3EF31FE75A50004299C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16F3F0C1FE75C02004299C8 /* commondef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commondef.h; sourceTree = "<group>"; };
+		F16F3F0E1FE75C02004299C8 /* zocr0.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = zocr0.lib; sourceTree = "<group>"; };
+		F16F3F0F1FE75C02004299C8 /* excards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = excards.h; sourceTree = "<group>"; };
+		F16F3F101FE75C02004299C8 /* libexidcardios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexidcardios.a; sourceTree = "<group>"; };
+		F16F3F111FE75C02004299C8 /* RKCaptureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKCaptureView.h; sourceTree = "<group>"; };
+		F16F3F121FE75C02004299C8 /* RKCaptureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKCaptureView.m; sourceTree = "<group>"; };
+		F16F3F131FE75C02004299C8 /* RKIDInfoTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKIDInfoTool.h; sourceTree = "<group>"; };
+		F16F3F141FE75C02004299C8 /* RKIDInfoTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKIDInfoTool.m; sourceTree = "<group>"; };
+		F16F3F151FE75C02004299C8 /* RKIDRecogntionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKIDRecogntionController.h; sourceTree = "<group>"; };
+		F16F3F161FE75C02004299C8 /* RKIDRecogntionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKIDRecogntionController.m; sourceTree = "<group>"; };
+		F16F3F1C1FE75C33004299C8 /* RK.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RK.pch; sourceTree = "<group>"; };
+		F16F3F1E1FE75EF3004299C8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F16F3EDC1FE75A50004299C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16F3F1F1FE75EF3004299C8 /* libz.tbd in Frameworks */,
+				F16F3F181FE75C02004299C8 /* libexidcardios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F16F3ED61FE75A50004299C8 = {
+			isa = PBXGroup;
+			children = (
+				F16F3EE11FE75A50004299C8 /* RKIdRecogtion */,
+				F16F3EE01FE75A50004299C8 /* Products */,
+				F16F3F1D1FE75EF3004299C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F16F3EE01FE75A50004299C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F16F3EDF1FE75A50004299C8 /* RKIdRecogtion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F16F3EE11FE75A50004299C8 /* RKIdRecogtion */ = {
+			isa = PBXGroup;
+			children = (
+				F16F3F0A1FE75C02004299C8 /* Demo */,
+				F16F3EE51FE75A50004299C8 /* AppDelegate.h */,
+				F16F3EE61FE75A50004299C8 /* AppDelegate.m */,
+				F16F3EEE1FE75A50004299C8 /* Assets.xcassets */,
+				F16F3EF31FE75A50004299C8 /* Info.plist */,
+				F16F3EE21FE75A50004299C8 /* Supporting Files */,
+			);
+			path = RKIdRecogtion;
+			sourceTree = "<group>";
+		};
+		F16F3EE21FE75A50004299C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F16F3EE31FE75A50004299C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F16F3F0A1FE75C02004299C8 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F16F3F0B1FE75C02004299C8 /* libexidcard */,
+				F16F3F111FE75C02004299C8 /* RKCaptureView.h */,
+				F16F3F121FE75C02004299C8 /* RKCaptureView.m */,
+				F16F3F131FE75C02004299C8 /* RKIDInfoTool.h */,
+				F16F3F141FE75C02004299C8 /* RKIDInfoTool.m */,
+				F16F3F151FE75C02004299C8 /* RKIDRecogntionController.h */,
+				F16F3F161FE75C02004299C8 /* RKIDRecogntionController.m */,
+				F16F3F1C1FE75C33004299C8 /* RK.pch */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		F16F3F0B1FE75C02004299C8 /* libexidcard */ = {
+			isa = PBXGroup;
+			children = (
+				F16F3F0C1FE75C02004299C8 /* commondef.h */,
+				F16F3F0D1FE75C02004299C8 /* dicts */,
+				F16F3F0F1FE75C02004299C8 /* excards.h */,
+				F16F3F101FE75C02004299C8 /* libexidcardios.a */,
+			);
+			path = libexidcard;
+			sourceTree = "<group>";
+		};
+		F16F3F0D1FE75C02004299C8 /* dicts */ = {
+			isa = PBXGroup;
+			children = (
+				F16F3F0E1FE75C02004299C8 /* zocr0.lib */,
+			);
+			path = dicts;
+			sourceTree = "<group>";
+		};
+		F16F3F1D1FE75EF3004299C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F16F3F1E1FE75EF3004299C8 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F16F3EDE1FE75A50004299C8 /* RKIdRecogtion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16F3EF61FE75A50004299C8 /* Build configuration list for PBXNativeTarget "RKIdRecogtion" */;
+			buildPhases = (
+				F16F3EDB1FE75A50004299C8 /* Sources */,
+				F16F3EDC1FE75A50004299C8 /* Frameworks */,
+				F16F3EDD1FE75A50004299C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RKIdRecogtion;
+			productName = RKIdRecogtion;
+			productReference = F16F3EDF1FE75A50004299C8 /* RKIdRecogtion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F16F3ED71FE75A50004299C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = RK;
+				TargetAttributes = {
+					F16F3EDE1FE75A50004299C8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = NCN9RLRN3R;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F16F3EDA1FE75A50004299C8 /* Build configuration list for PBXProject "RKIdRecogtion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F16F3ED61FE75A50004299C8;
+			productRefGroup = F16F3EE01FE75A50004299C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F16F3EDE1FE75A50004299C8 /* RKIdRecogtion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F16F3EDD1FE75A50004299C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16F3F171FE75C02004299C8 /* zocr0.lib in Resources */,
+				F16F3EEF1FE75A50004299C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F16F3EDB1FE75A50004299C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16F3EE71FE75A50004299C8 /* AppDelegate.m in Sources */,
+				F16F3F1A1FE75C02004299C8 /* RKIDInfoTool.m in Sources */,
+				F16F3F191FE75C02004299C8 /* RKCaptureView.m in Sources */,
+				F16F3EE41FE75A50004299C8 /* main.m in Sources */,
+				F16F3F1B1FE75C02004299C8 /* RKIDRecogntionController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F16F3EF41FE75A50004299C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F16F3EF51FE75A50004299C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F16F3EF71FE75A50004299C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = NCN9RLRN3R;
+				ENABLE_BITCODE = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = RKIdRecogtion/Demo/RK.pch;
+				INFOPLIST_FILE = RKIdRecogtion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RKIdRecogtion/libexidcard",
+					"$(PROJECT_DIR)/RKIdRecogtion/Demo/libexidcard",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaokui.www.RKIdRecogtion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F16F3EF81FE75A50004299C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = NCN9RLRN3R;
+				ENABLE_BITCODE = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = RKIdRecogtion/Demo/RK.pch;
+				INFOPLIST_FILE = RKIdRecogtion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RKIdRecogtion/libexidcard",
+					"$(PROJECT_DIR)/RKIdRecogtion/Demo/libexidcard",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaokui.www.RKIdRecogtion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F16F3EDA1FE75A50004299C8 /* Build configuration list for PBXProject "RKIdRecogtion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16F3EF41FE75A50004299C8 /* Debug */,
+				F16F3EF51FE75A50004299C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16F3EF61FE75A50004299C8 /* Build configuration list for PBXNativeTarget "RKIdRecogtion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16F3EF71FE75A50004299C8 /* Debug */,
+				F16F3EF81FE75A50004299C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F16F3ED71FE75A50004299C8 /* Project object */;
+}

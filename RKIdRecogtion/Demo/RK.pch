@@ -1,0 +1,15 @@
+//
+//  RK.pch
+//  RKIdRecogtion
+//
+//  Created by RK on 2017/12/18.
+//  Copyright © 2017年 RK. All rights reserved.
+//
+
+#ifndef RK_pch
+#define RK_pch
+
+#define kMainScreenWidth  ([UIScreen mainScreen].bounds.size.width)
+#define kMainScreenHeight ([UIScreen mainScreen].bounds.size.height)
+
+#endif /* RK_pch */
